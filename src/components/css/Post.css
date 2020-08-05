@@ -3,8 +3,29 @@
   background-color: white;
   margin: var(--spacingx2) auto;
   padding: var(--spacingx2);
+  margin-bottom: 0px;
 }
 
 .post__image{
   margin-right: var(--spacing);
+}
+
+@media screen and (max-width: 320px) {
+  .post{
+    flex-direction: column;
+  }
+
+  .post__image {
+    margin-bottom: var(--spacing);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .post{
+    flex-direction: column;
+  }
+
+  .post__image {
+    margin-bottom: var(--spacing);
+  }
 }

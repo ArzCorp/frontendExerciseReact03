@@ -18,3 +18,15 @@
   text-align: center;
   color: var(--color-primary)
 }
+
+@media screen and (max-width: 320px) {
+  .menu {
+    margin: 0px var(--spacing);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .menu {
+    margin: 0px var(--spacing);
+  }
+}
